@@ -1,7 +1,7 @@
 class Age{
-  //Get Memes 
+  //Get Age 
   async getAge(username){
-    console.log(username);
+    //console.log(username);
      const response = await fetch(`https://api.agify.io/?name=${username}`);
      
      const responseData = await response.json();
